@@ -1,0 +1,15 @@
+sudo yum install -y amazon-efs-utils
+
+mkdir efs
+ls
+sudo mount -t efs -o tls fs-194f7cc8:/ efs
+cd efs
+ll
+sudo touch helloworld.txt
+ll
+sudo nano helloworld.txt
+cat helloworld.txt
+
+
+lakshrstg
+lakshay@123
